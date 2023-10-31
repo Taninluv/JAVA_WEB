@@ -1,0 +1,14 @@
+6.3:
+Y 设计根据最新数据库javabean
+完成基础查询功能mapper和mapper.xml
+    1.查询单个用户信息
+    User seletByname(String uname);
+    2.查询某宿舍的用户信息列表
+    SELECT * from tb_user where dormitoryNum =
+    3.查询通知
+    SELECT * from tb_notice where towhere = "squr"
+    4.查询某条评论的用户和评论文本、评论对象
+    SELECT * from tb_msg where whoreceive = "zhangsan"
+    5.查询宿舍通报
+    SELECT * from tb_notice where towhere = 233
+？最佳宿舍和辣鸡宿舍列表？
